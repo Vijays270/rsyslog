@@ -129,6 +129,7 @@ systemctl restart rsyslog
 
 
 #Monitor Logs in Real-Time: Once you execute the command, tail will start showing the last 10 lines of /var/log/secure. As new lines are added to the file (e.g., when someone logs in or runs a sudo command), they will appear in your terminal.
+
 tail -f /var/log/secure 
 
 
